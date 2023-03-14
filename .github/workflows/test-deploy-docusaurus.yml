@@ -36,9 +36,7 @@ jobs:
           restore-keys: ${{ runner.os }}-pnpm-store-
 
       - name: Install
-        working-directory: ./docs
         run: pnpm i
 
       - name: Build
-        working-directory: ./docs
         run: pnpm run build
