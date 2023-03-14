@@ -69,7 +69,7 @@ const config = {
             // Replace with your project's social card
             image: 'img/encrypt.jpg',
             navbar: {
-                title: 'Modern Cryptography Primitives',
+                title: 'Modern Cryptography',
                 logo: {
                     alt: 'My Site Logo',
                     src: 'img/encrypt.svg',
@@ -79,6 +79,11 @@ const config = {
                         to: '/docs/category/primitives',
                         position: 'left',
                         label: 'Primitives',
+                    },
+                    {
+                        to: '/docs/category/protocols',
+                        position: 'left',
+                        label: 'Protocols',
                     },
                     {
                         href: 'https://github.com/r1oga/crytography',
@@ -96,6 +101,10 @@ const config = {
                             {
                                 label: 'Primitives',
                                 to: '/docs/category/primitives',
+                            },
+                            {
+                                label: 'Protocols',
+                                to: '/docs/category/protocols',
                             },
                         ],
                     },
