@@ -22,7 +22,7 @@ const config = {
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'r1oga', // Usually your GitHub org/user name.
     projectName: 'cryptography', // Usually your repo name.
-
+    deploymentBranch: 'gh-pages', // Branch that GitHub pages will deploy from.
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
