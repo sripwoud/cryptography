@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcryptography=self.webpackChunkcryptography||[]).push([[9786],{1161:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/cryptography/blog/tags/hola","allTagsPath":"/cryptography/blog/tags","count":1}')}}]);
