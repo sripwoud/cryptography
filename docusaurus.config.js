@@ -76,10 +76,9 @@ const config = {
                 },
                 items: [
                     {
-                        type: 'doc',
-                        docId: 'intro',
+                        to: '/docs/category/primitives',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Primitives',
                     },
                     {
                         href: 'https://github.com/r1oga/crytography',
@@ -95,8 +94,8 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
+                                label: 'Primitives',
+                                to: '/docs/category/primitives',
                             },
                         ],
                     },
