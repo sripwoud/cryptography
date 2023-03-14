@@ -13,7 +13,7 @@ const config = {
     favicon: 'img/encrypt.ico',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-test-site.com',
+    url: 'https://r1oga.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/cryptography/',
@@ -96,23 +96,6 @@ const config = {
                             {
                                 label: 'Primitives',
                                 to: '/docs/category/primitives',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
                             },
                         ],
                     },
