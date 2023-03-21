@@ -12,13 +12,16 @@ A hash function is any function that can be used to map data of arbitrary size t
 graph LR
 
 A([Input <br><em>arbitrary length</em>]) -->B[Hash Function]
-B --> C([Digest<br><em>Fixed length</em><br> <code>c87a56d54..</code>])
+B --> C([Digest<br><em>Fixed length</em><br> <code>c87d54...456</code>])
 ```
 
 ## Example
-```commandline
+```bash
 openssl dgst -sha256 -binary -out digest.bin file.txt
 ```
+
+## Application(s)
+Hash functions can be used data integrity and authenticity checks.
 
 ## Security
 - pre-image resistance/one-way: given a digest, it is infeasible to find a message that hashes to the digest.
@@ -39,6 +42,8 @@ openssl dgst -sha256 -binary -out digest.bin file.txt
      A([Input]) -->B[Hash Function]
      B --> C([Digest])
      D([?]) -.-> B -.-> C([Digest])
+  
+     style D stroke: red;
      linkStyle 2 stroke:red, stroke-dasharray: 5;
      linkStyle 3 stroke:red, stroke-dasharray: 5;
     ```
@@ -49,12 +54,15 @@ openssl dgst -sha256 -binary -out digest.bin file.txt
      A([?]) -->B[Hash Function]
      B --> C([Digest])
      D([?]) -.-> B -.-> C([Digest])
+  
+     style A stroke: red;
+     style D stroke: red;
      linkStyle 0 stroke:red, stroke-dasharray: 5;
      linkStyle 1 stroke:red, stroke-dasharray: 5;
      linkStyle 2 stroke:red, stroke-dasharray: 5;
      linkStyle 3 stroke:red, stroke-dasharray: 5;
     ```
-## Limitations / Security
+## Limitations / Caveats
 :::caution
   **Length of input matters to avoid being able to find a second pre-image.**  
   If the input space is small, it becomes easy to iterate over it to find a pre-image for the digest.
@@ -65,3 +73,6 @@ openssl dgst -sha256 -binary -out digest.bin file.txt
   This is why it is recommended to use a hash function with a digest length of at least 256 bits in practice (to have security of $128 = \frac{256}{2}$ bits).
 :::
 
+:::caution
+When using a pre-computed hash function as a data integrity, one needs to trust its origin: it assumes a trusted channel has been created.
+:::
