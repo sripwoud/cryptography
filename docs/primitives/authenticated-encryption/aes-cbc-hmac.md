@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: AES-CBC-HMAC
 ---
 
 # AES with Cipher Block Chaining Message Authentication Code (AES-CBC-HMAC)

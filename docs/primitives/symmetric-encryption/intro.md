@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Symmetric Encryption (SE)
-Symmetric-key encryption is a family of encryption algorithms that use the **same** cryptographic key(s) for both the encryption of plaintext and the decryption of ciphertext.[^1]
+# Symmetric Encryption
+Symmetric encryption is a family of encryption algorithms that use the **same** cryptographic key(s) for both the encryption of plaintext and the decryption of ciphertext.[^1]
 
 
 ```mermaid
