@@ -76,6 +76,11 @@ const config = {
                 },
                 items: [
                     {
+                        to: '/docs/definitions',
+                        position: 'left',
+                        label: 'Definitions',
+                    },
+                    {
                         to: '/docs/category/primitives',
                         position: 'left',
                         label: 'Primitives',
@@ -98,6 +103,10 @@ const config = {
                     {
                         title: 'Docs',
                         items: [
+                            {
+                                label: 'Definitions',
+                                to: '/docs/definitions',
+                            },
                             {
                                 label: 'Primitives',
                                 to: '/docs/category/primitives',
