@@ -80,7 +80,7 @@ printf "%s" "value" | openssl sha256 -hmac "key"
 
 ## Application(s)
 MAC can be used to provide a **trusted channel**.  
-Especially **cookies** rely on MAC to provide a (one-way) trusted communication channel from the client towards the server.
+Especially **cookies** rely on MAC to provide a (one-way) trusted communication channel from a client towards a server.
 With cookies, a server can securely authenticate clients and trust the information originating from them as being "authentic".
 :::note
 Cookies as an authentication mechanism doesn't scale well because the server needs to provide a cookie for each client, and store their reference values in a database to perform the authentication later.
