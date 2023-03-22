@@ -1,5 +1,5 @@
 {
-  "label": "Authenticated Encryption",
+  "label": "Authenticated Encryption (AE)",
   "position": 4,
   "link": {
     "type": "generated-index"
