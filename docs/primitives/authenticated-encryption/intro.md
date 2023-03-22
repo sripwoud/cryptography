@@ -3,25 +3,12 @@ sidebar_position: 1
 ---
 
 # Authenticated Encryption
-A MAC that can be reversed.
+[Symmetric encryption](../symmetric-encryption/intro) provides confidentiality, but not authenticity.  
+[MACs](../mac/intro) provide authenticity, but not confidentiality.  
+Authenticated Encryption is about combining both symmetric encryption and MACs primitives to achieve both confidentiality and authenticity. 
 
-
-```mermaid
-flowchart LR
-    A([Plain text<br><em>secret</em>]) --> B[Encrypt]
-    B --> C([Ciphertext<br><em>public</em><br>`0xfac..54c`])
-    D([Key<br><em>secret</em>]) --> B
-
-style D fill:#f9f,stroke:#333,stroke-width:4px
-```
-```mermaid
-graph RL
-    A([Ciphertext<br><em>public</em><br>`0xfac..54c`]) --> B[Decrypt]
-    B --> C([Plain text<br><em>secret</em>])
-    D([Key<br><em>secret</em>]) --> B
-    
-style D fill:#f9f,stroke:#333,stroke-width:4px
-```
+The encryption of plaintext is done using a symmetric key.
+The MAC is built using a separate symmetric key. This MAC is used to verify the authenticity of the ciphertext. So the ciphertext is authenticated: authenticated encryption.
 
 
 
