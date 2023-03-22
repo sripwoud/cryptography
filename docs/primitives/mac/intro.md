@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+title: MAC
 ---
 
-# MAC
+# Message Authentication Code (MAC)
 In cryptography, a message authentication code (MAC), sometimes known as an authentication tag, is a short piece of information used for authenticating a message.
 In other words, to confirm that the message came from the stated sender (its authenticity) and has not been changed.[^1]
 The MAC value protects a message's data integrity, as well as its authenticity, by allowing verifiers (who also possess the secret key) to detect any changes to the message content.
