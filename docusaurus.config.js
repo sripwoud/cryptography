@@ -8,8 +8,8 @@ const katex = require('rehype-katex')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Cryptography',
-    tagline: 'Introduction to Modern Cryptographic Primitives',
+    title: 'Cryptography 101',
+    tagline: 'Introduction to Modern Cryptographic Primitives and Protocols',
     favicon: 'img/encrypt.ico',
 
     // Set the production url of your site here
@@ -69,7 +69,7 @@ const config = {
             // Replace with your project's social card
             image: 'img/encrypt.jpg',
             navbar: {
-                title: 'Modern Cryptography',
+                title: 'Cryptography 101',
                 logo: {
                     alt: 'My Site Logo',
                     src: 'img/encrypt.svg',
@@ -127,7 +127,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} r1oga, Cryptography 101.`,
             },
             prism: {
                 theme: lightCodeTheme,
