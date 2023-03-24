@@ -21,7 +21,7 @@ openssl dgst -sha256 -binary -out digest.bin file.txt
 ```
 
 ## Application(s)
-Hash functions can be used data integrity and authenticity checks.
+Hash functions can be used data for integrity and authenticity checks ([checksums](../../definitions)).
 
 ## Security
 - pre-image resistance/one-way: given a digest, it is infeasible to find a message that hashes to the digest.
