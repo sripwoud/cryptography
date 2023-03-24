@@ -11,16 +11,18 @@ This type of construction is also called _encrypt-then-MAC_
 
 ```mermaid
 graph LR
+    SK1([Symmetric Key 1<br><em>secret</em>]) --> CBC
     PT([Plaintext]) --> CBC[Cipher Block Chaining]
     IV([Initialization Vector]) --> CBC
     CBC --> C([Ciphertext<br><em>public</em>])
     C --> concat["➕ Concatenate"]
     IV --> concat
     concat --> HMAC[HMAC]
-    SK([Symmetric Key<br><em>secret</em>]) --> HMAC
+    SK2([Symmetric Key 2<br><em>secret</em>]) --> HMAC
     HMAC --> AT([Authenticated Ciphertext])
     
-    style SK fill:#f9f,stroke:#333,stroke-width:4px
+    style SK1 fill:#f9f,stroke:#333,stroke-width:4px
+    style SK2 fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ## Example
