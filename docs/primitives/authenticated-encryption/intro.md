@@ -3,6 +3,13 @@ sidebar_position: 1
 ---
 
 # Authenticated Encryption
+
+| Primitive                | Confidentiality  | Integrity/Authenticity  |
+|:-------------------------|:----------------:|:-----------------------:|
+| Symmetric Encryption     |        ✅         |            ❌            |
+| MAC                      |        ❌         |            ✅            |
+| Authenticated Encryption |        ✅         |            ✅            |
+
 [Symmetric encryption](../symmetric-encryption/intro) provides confidentiality, but not authenticity.  
 [MACs](../mac/intro) provide authenticity, but not confidentiality.  
 Authenticated Encryption is about combining both symmetric encryption and MACs primitives to achieve both confidentiality and authenticity. 
