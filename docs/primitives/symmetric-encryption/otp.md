@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: One Time Pad
 ---
 
@@ -33,7 +33,8 @@ graph RL
 :::
 
 :::caution
-**The key and plaintext must have the same length.**
+**The key and plaintext must have the same length.**  
+This is not a problem for small messages, but it becomes a problem for large messages. For example, if we want to encrypt a 1GB file, we need a 1GB key. This is not practical.
 :::
 
 :::caution
