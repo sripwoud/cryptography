@@ -13,14 +13,14 @@ const config = {
     favicon: 'img/encrypt.ico',
 
     // Set the production url of your site here
-    url: 'https://r1oga.github.io',
+    url: 'https://cryptography.sripwoud.xyz',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/cryptography/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'r1oga', // Usually your GitHub org/user name.
+    organizationName: 'sripwoud', // Usually your GitHub org/user name.
     projectName: 'cryptography', // Usually your repo name.
     deploymentBranch: 'gh-pages', // Branch that GitHub pages will deploy from.
     onBrokenLinks: 'throw',
@@ -44,7 +44,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/r1oga/cryptography/tree/main/docs',
+                        'https://github.com/sripwoud/cryptography/tree/main/docs',
                     remarkPlugins: [math],
                     rehypePlugins: [katex],
                 },
@@ -53,7 +53,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/r1oga/cryptography/tree/main/docs',
+                        'https://github.com/sripwoud/cryptography/tree/main/docs',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -91,7 +91,7 @@ const config = {
                         label: 'Protocols',
                     },
                     {
-                        href: 'https://github.com/r1oga/crytography',
+                        href: 'https://github.com/sripwoud/cryptography',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -122,12 +122,12 @@ const config = {
                         items: [
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/r1oga/cryptograhy',
+                                href: 'https://github.com/sripwoud/cryptography',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} r1oga, Cryptography 101.`,
+                copyright: `Copyright © ${new Date().getFullYear()} sripwoud, Cryptography 101.`,
             },
             prism: {
                 theme: lightCodeTheme,
