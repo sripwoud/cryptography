@@ -36,7 +36,7 @@ jobs:
           restore-keys: ${{ runner.os }}-pnpm-store-
 
       - name: Install
-        run: pnpm i
+        run: pnpm i --no-frozen-lockfile
 
       - name: Build
         run: pnpm run build
