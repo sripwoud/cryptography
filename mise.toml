@@ -1,0 +1,5 @@
+[tasks]
+start = { run = "bun docusaurus start" }
+
+[tools]
+bun = "latest"
