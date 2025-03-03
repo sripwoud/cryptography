@@ -31,4 +31,4 @@ style D fill:#f9f,stroke:#333,stroke-width:4px
 !> A trusted communication channel is required to securely perform the key exchange.
 
 !> It doesn't scale well as performing a private and secure key-exchange between each pair of communicating parties is impractical.  
-E.g on the web, a situation where scaling matters, [asymmetric encryption](/primitives/asymmetric-encryption/intro) together with [PKI](/protocols/pki) is rather used to securely exchange keys.
+E.g on the web, a situation where scaling matters, [asymmetric encryption](/primitives/asymmetric-encryption/) together with [PKI](/protocols/pki) is rather used to securely exchange keys.

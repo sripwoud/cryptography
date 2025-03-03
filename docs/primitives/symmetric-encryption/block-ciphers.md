@@ -1,6 +1,7 @@
 # Block Ciphers
 
-Block ciphers are a type of **symmetric** and **deterministic** encryption algorithms that encrypt **fixed-length** blocks of data. Because the secret key does not need to share the same length as the plaintext and can be reused, they address some limitations of the [OTP](otp).\
+Block ciphers are a type of **symmetric** and **deterministic** encryption algorithms that encrypt **fixed-length** blocks of data.  
+Because the secret key does not need to share the same length as the plaintext and can be reused, they address some limitations of the [OTP](/primitives/symmetric-encryption/otp) encryption scheme.  
 More formally they are a bijective mapping:
 $$
 E: \{0,1\}^k \times \{0,1\}^n \rightarrow \{0,1\}^n
@@ -10,7 +11,7 @@ $$
 D: \{0,1\}^k \times \{0,1\}^n \rightarrow \{0,1\}^n
 $$
 
-Today the most popular block cipher implementation/specification is the [AES](aes).
+Today the most popular block cipher implementation/specification is the [AES](/primitives/symmetric-encryption/aes) algorithm.
 
 ## Limitations/Caveats
 

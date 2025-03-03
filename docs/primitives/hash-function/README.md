@@ -19,7 +19,7 @@ openssl dgst -sha256 -binary -out digest.bin file.txt
 
 ## Application(s)
 
-Hash functions can be used data for integrity and authenticity checks ([checksums](../../definitions)).
+Hash functions can be used data for integrity and authenticity checks ([checksums](/definitions)).
 
 ## Security
 

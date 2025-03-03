@@ -21,6 +21,6 @@ From which follows a useful property:\
 $x \oplus y \oplus x = x \oplus x \oplus y = 0 \oplus y =y$\
 **Given $x \oplus y$, we can get $y$ back when knowing $x$**.
 
-This is the basis of the [one-time pad](otp.md) encryption/decryption.
+This is the basis of the [one-time pad](/primitives/symmetric-encryption/otp) (OTP) encryption scheme.md) encryption/decryption.
 
 [^1]: https://textbook.cs161.org/crypto/symmetric.html#62-xor-review

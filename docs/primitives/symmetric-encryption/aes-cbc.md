@@ -1,6 +1,6 @@
 # AES-CBC
 
-AES-CBC is the combination of the [AES](aes) block cipher and the [CBC](cbc) mode of operation.
+AES-CBC is the combination of the [AES](/primitives/symmetric-encryption/aes) block cipher and the [CBC](/primitives/symmetric-encryption/cbc) mode of operation.
 
 ```mermaid
 graph LR
