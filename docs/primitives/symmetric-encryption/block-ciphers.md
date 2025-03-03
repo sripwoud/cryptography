@@ -14,5 +14,5 @@ Today the most popular block cipher implementation/specification is the [AES](ae
 
 ## Limitations/Caveats
 
-!> **Can only encrypt/decrypt fixed-length blocks of data.**\
+!> **Can only encrypt/decrypt fixed-length blocks of data.**  
 In practice different ways (modes of operation) exist to split a plaintext of arbitrary length into chunks on which a block cipher can individually be applied. (See e.g. [CBC](/primitives/symmetric-encryption/cbc))
