@@ -1,10 +1,4 @@
----
-sidebar_position: 2
-title: AES-CBC-HMAC
----
-
-# AES with Cipher Block Chaining Message Authentication Code (AES-CBC-HMAC)
-One of the limitation of [AES-CBC](#TODO) is that it does not provide any integrity/authenticity check.  
+One of the limitation of [AES-CBC](#TODO) is that it does not provide any integrity/authenticity check.\
 To prevent tampering of the ciphertext, we can use a [HMAC](../mac/hmac.md) to verify the integrity of the ciphertext.
 
 This type of construction is also called _encrypt-then-MAC_
@@ -20,16 +14,19 @@ graph LR
     concat --> HMAC[HMAC]
     SK2([Symmetric Key 2<br><em>secret</em>]) --> HMAC
     HMAC --> AT([Authenticated Ciphertext])
-    
+
     style SK1 fill:#f9f,stroke:#333,stroke-width:4px
     style SK2 fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
 ## Example
+
 TODO
 
 ## Security
+
 TODO
 
 ## Limitations/Caveats
+
 TODO

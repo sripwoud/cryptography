@@ -1,5 +1,10 @@
-[tasks]
-start = { run = "bun docusaurus start" }
+[tasks.serve]
+alias = "s"
+description = "Serve docsify site"
+dir = "docs"
+run = "docsify serve -o"
+quiet = true
 
 [tools]
-bun = "latest"
+dprint = "latest"
+"npm:docsify-cli" = "latest"
