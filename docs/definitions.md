@@ -1,9 +1,3 @@
----
-sidebar_position: 1
----
-
-# Definitions
-
 | Term               | Definition                                                                                                                                                                                             |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Authentication** | Making sure that a given entity (with whom you are interacting) is who you believe it to be.[^1]                                                                                                       |

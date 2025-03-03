@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Symmetric Encryption
 
 Symmetric encryption is a family of encryption algorithms that use the **same** cryptographic key(s) for both the encryption of plaintext and the decryption of ciphertext.[^1]
@@ -20,7 +16,7 @@ graph RL
     A([Ciphertext<br><em>public</em><br>`0xfac..54c`]) --> B[Decrypt]
     B --> C(["📄"])
     D(["🔑<br><em>secret</em>"]) --> B
-    
+
 style D fill:#f9f,stroke:#333,stroke-width:4px
 ```
 

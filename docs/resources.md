@@ -1,5 +1,3 @@
-# Resources
-
 ## Books
 
 - [Real World Cryptography, _David Wong_](https://www.manning.com/books/real-world-cryptography)

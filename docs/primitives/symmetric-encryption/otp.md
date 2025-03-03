@@ -1,10 +1,3 @@
----
-sidebar_position: 3
-title: One Time Pad
----
-
-# One Time Pad (OTP)
-
 The one-time pad (OTP) is a symmetric-key encryption algorithm that relies on the bitwise XOR (exclusive-or) operation (written as ⊕) to "scramble" a message into a ciphertext.
 
 ```mermaid
@@ -13,7 +6,7 @@ graph LR
     PT([Plaintext<br><em>Length<code>L</code>]) --> XOR["⊕"]
     SK([Key<br><em>secret<br><em>Length<code>L</code>]) --> XOR
     XOR --> |encryption|C([Ciphertext<br><em>Length<code>L</code>])
-    
+
     style SK fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
@@ -23,7 +16,7 @@ graph RL
     SK([Key<br><em>secret<br><em>Length<code>L</code>]) --> XOR
     C([Ciphertext<br><em>Length<code>L</code>]) --> XOR["⊕"]
     XOR --> |decryption|PT([Plaintext<br><em>Length<code>L</code>])
-    
+
     style SK fill:#f9f,stroke:#333,stroke-width:4px
 ```
 

@@ -1,10 +1,3 @@
----
-sidebar_position: 4
-title: Block Ciphers
----
-
-# Block Ciphers
-
 Block ciphers are a type of **symmetric** and **deterministic** encryption algorithms that encrypt **fixed-length** blocks of data. Because the secret key does not need to share the same length as the plaintext and can be reused, they address some limitations of the [OTP](otp).\
 More formally they are a bijective mapping:
 $$

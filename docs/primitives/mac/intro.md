@@ -1,10 +1,3 @@
----
-sidebar_position: 1
-title: MAC
----
-
-# Message Authentication Code (MAC)
-
 A MAC is a keyed [checksum](../../definitions) of a message that is sent along with the message.
 It takes in a fixed-length secret key and an arbitrary-length message, and outputs a fixed-length checksum.[^1]
 Any change to the message will render the checksum invalid, allowing verifiers (who need to also possess the secret key) to detect any changes to the message content.

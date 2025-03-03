@@ -1,10 +1,3 @@
----
-sidebar_position: 6
-title: AES
----
-
-# Advanced Encryption Standard (AES)
-
 The Advanced Encryption Standard (original name Rijndael) is Block Cipher implementation specified by the U.S. National Institute of Standards and Technology (NIST) in 2001[^1].
 
 ```mermaid
@@ -13,7 +6,7 @@ graph LR
     PT([Plaintext<br><em>128 bits</em>]) --> AES[AES]
     SK(["Key<br><em>secret<br>128|192|256 bits</em>"]) --> AES
     AES --> |encryption|C([Ciphertext<br><em>128 bits</em>])
-    
+
     style SK fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
