@@ -32,9 +32,7 @@ flowchart LR
 
 ## Limitations/Caveats
 
-:::caution
-**Is a block cipher**.\
-As-is it can only encrypt/decrypt fixed-length blocks of data. So a block cipher mode of operation must be applied for it to become an encryption/decryption algorithm applicable to messages of arbitrary length.
-:::
+!> **Is a block cipher**.  
+As-is it can only encrypt/decrypt fixed-length blocks of data. So a block cipher mode of operation must be applied for it to become an encryption/decryption algorithm applicable to messages of arbitrary length. (See e.g. [AES in CBC mode](/primitives/symmetric-encryption/aes-cbc))
 
 [^1]: https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf
