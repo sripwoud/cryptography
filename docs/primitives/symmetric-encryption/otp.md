@@ -28,23 +28,21 @@ graph RL
 ```
 
 ## Limitations/Caveats
+
 :::caution
 **The key must be random.** (uniform distribution)
 :::
 
 :::caution
-**The key and plaintext must have the same length.**  
+**The key and plaintext must have the same length.**\
 This is not a problem for small messages, but it becomes a problem for large messages. For example, if we want to encrypt a 1GB file, we need a 1GB key. This is not practical.
 :::
 
 :::caution
 **The secret key must not be reused.** ("one-time")
-- Because anyone who knows a plaintext and its ciphertext can reconstruct the key.
-- Because anyone who knows 2 ciphertexts $C$ and $C'$ can deduce $C \oplus C' = M \oplus M'$, which leaks information about $M$ and $M'$ and can be enough to deduce $M$ or $M'$[^1]. 
-:::
 
+- Because anyone who knows a plaintext and its ciphertext can reconstruct the key.
+- Because anyone who knows 2 ciphertexts $C$ and $C'$ can deduce $C \oplus C' = M \oplus M'$, which leaks information about $M$ and $M'$ and can be enough to deduce $M$ or $M'$[^1].
+  :::
 
 [^1]: https://crypto.stackexchange.com/a/108
-
-
-

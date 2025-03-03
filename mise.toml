@@ -6,4 +6,5 @@ run = "docsify serve -o"
 quiet = true
 
 [tools]
+dprint = "latest"
 "npm:docsify-cli" = "latest"

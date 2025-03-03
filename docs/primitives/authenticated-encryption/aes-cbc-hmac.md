@@ -4,7 +4,8 @@ title: AES-CBC-HMAC
 ---
 
 # AES with Cipher Block Chaining Message Authentication Code (AES-CBC-HMAC)
-One of the limitation of [AES-CBC](#TODO) is that it does not provide any integrity/authenticity check.  
+
+One of the limitation of [AES-CBC](#TODO) is that it does not provide any integrity/authenticity check.\
 To prevent tampering of the ciphertext, we can use a [HMAC](../mac/hmac.md) to verify the integrity of the ciphertext.
 
 This type of construction is also called _encrypt-then-MAC_
@@ -26,10 +27,13 @@ graph LR
 ```
 
 ## Example
+
 TODO
 
 ## Security
+
 TODO
 
 ## Limitations/Caveats
+
 TODO

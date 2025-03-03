@@ -4,6 +4,7 @@ title: AES-CBC
 ---
 
 # Advanced Encryption Standard (AES) in Cipher Block Chaining (CBC) mode
+
 AES-CBC is the combination of the [AES](aes) block cipher and the [CBC](cbc) mode of operation.
 
 ```mermaid

@@ -19,7 +19,7 @@
     - [AES-CBC-HMAC](primitives/authenticated-encryption/aes-cbc-hmac.md)
     - [AEAD](primitives/authenticated-encryption/aead.md)
     - [AES-GCM](primitives/authenticated-encryption/aes-gcm.md)
-     - [ChaCha20-Poly1305](primitives/authenticated-encryption/chacha20-poly1305.md)
+    - [ChaCha20-Poly1305](primitives/authenticated-encryption/chacha20-poly1305.md)
   - [Key Exchanges](primitives/key-exchanges/intro.md)
     - [DH](primitives/key-exchanges/dh.md)
     - [ECDH](primitives/key-exchanges/ecdh.md)
