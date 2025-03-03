@@ -1,3 +1,5 @@
+# XOR
+
 Symmetric-key encryption often relies on the bitwise XOR (exclusive-or) operation (written as
 ⊕)[^1].
 

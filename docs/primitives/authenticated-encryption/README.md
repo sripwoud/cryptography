@@ -1,3 +1,5 @@
+# Authenticated Encryption
+
 | Primitive                | Confidentiality | Integrity/Authenticity |
 | :----------------------- | :-------------: | :--------------------: |
 | Symmetric Encryption     |       ✅        |           ❌           |

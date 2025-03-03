@@ -1,3 +1,5 @@
+# OTP
+
 The one-time pad (OTP) is a symmetric-key encryption algorithm that relies on the bitwise XOR (exclusive-or) operation (written as ⊕) to "scramble" a message into a ciphertext.
 
 ```mermaid
