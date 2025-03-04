@@ -25,6 +25,22 @@ graph LR
     style PRIVK2 fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
-!> **Unauthenticated** key exchanges are only secure to **passive** Man In The Middle attacks.  
-Only **authenticated** key exchanges are secure to **active** Man In The Middle attacks.  
-(Protocols like [TLS](/protocols/tls) or [PKI](/protocols/pki) rely on certificates and [digital signatures](/primitives/signature) for the authentication part of their key exchanges.)
+## Generalized Framework
+
+To construct a key exchange protocol, we generally need
+### 1. A one way function
+$f: G \rightarrow H$ is easy to compute but hard to invert.
+
+?> **One way**  
+This  kind of functions are found in the [NP-hard](https://en.wikipedia.org/wiki/P_versus_NP_problem) set of problems.
+
+### 2. Commutativity
+So that $ f(xy) = f(yx)$  
+We need commutativity so that the secret is the same for both parties.  
+We can have commutativity either if:
+  1. $G$ is an [abelian group](https://en.wikipedia.org/wiki/Abelian_group) (G is itself commutative)
+    $$x.y = y.x \quad \forall x,y \in G \implies f(x.y) = f(y.x)$$
+  2. $f$ is an [homomorphism](https://en.wikipedia.org/wiki/homomorphism) (1) and $S$ is abelian (2).
+    $$f(xy) = f(x).f(y) \quad \forall x,y \in G\tag{1}$$
+    $$f(x).f(y) = f(y).f(x) \quad \forall x,y \in G \tag{2}$$
+    $$\text{1 and 2} \implies f(xy) = f(yx).f(y) = f(y).f(x) = f(yx)$$

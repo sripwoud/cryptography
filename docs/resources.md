@@ -18,4 +18,5 @@
 
 ## Other
 
+- [Standard Curves DB](https://neuromancer.sk/std/)
 - [zkhack](https://zkhack.dev/)
