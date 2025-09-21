@@ -64,10 +64,10 @@ Hash functions can be used data for integrity and authenticity checks ([checksum
 
 ## Limitations / Caveats
 
-!> **Length of input matters to avoid being able to find a second pre-image.**  
+!> **Length of input matters to avoid being able to find a second pre-image.**\
 If the input space is small, it becomes easy to iterate over it to find a pre-image for the digest.
 
-!> **Length of digest matters to avoid collisions.**  
+!> **Length of digest matters to avoid collisions.**\
 This is why it is recommended to use a hash function with a digest length of at least 256 bits in practice (to have security of $128 = \frac{256}{2}$ bits).
 
 !> When using a pre-computed hash function as a data integrity, one needs to trust its origin: it assumes a trusted channel has been created.

@@ -101,17 +101,17 @@ Cookies as an authentication mechanism doesn't scale well because the server nee
 
 ## Limitations / Caveats
 
-!> **MACs don't provide confidentiality**.  
+!> **MACs don't provide confidentiality**.\
 The message sent is not encrypted and can be read by observers.
 
-!> **MAC verification time should be constant.**  
+!> **MAC verification time should be constant.**\
 Otherwise, MACs become subject to timing attacks.[^2]
 
-!> **For the resistance against forgery to hold, the secret key must be long enough.**  
+!> **For the resistance against forgery to hold, the secret key must be long enough.**\
 At least 16 bytes (128 bits).
 
-!> **MACs can't be reused**.  
-They don't prevent replays (especially that's why cookies have an expiration date).  
+!> **MACs can't be reused**.\
+They don't prevent replays (especially that's why cookies have an expiration date).\
 One way to prevent replays is to use a counter or a nonce (a random number that is never reused).
 
 [^1]: https://textbook.cs161.org/crypto/macs.html#82-mac-definition
